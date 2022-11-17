@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+ 
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-dancing-script: "Dancing Script";
+ 
+
+  /* font sizes */
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+
+  /* Colors */
+  --color-gray-100: #333;
+  --color-white: #fff;
+  --color-indigo: #5c62fa;
+
+  /* border radiuses */
+  --br-md: 15px;
+}

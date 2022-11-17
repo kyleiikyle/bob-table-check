@@ -1,0 +1,200 @@
+.group-icon,
+.vector-icon1 {
+  /*    position: absolute; */ 
+  top: 27px;
+  left: 28px;
+  width: 74%;
+  height: 50px;
+  position: sticky;
+}
+.vector-icon1 {
+  height: 2.36%;
+  width: 5.11%;
+  top: 4.54%;
+  right: 5.17%;
+  bottom: 93.1%;
+  left: 89.72%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bar-area-div,
+.main-restaurants-div,
+.pdr-div {
+       /* position: absolute; */ 
+
+  top: 99px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+}
+.main-restaurants-div {
+  left: 28px;
+  font-weight: 500;
+}
+.bar-area-div,
+.pdr-div {
+  left: 184px;
+  color: var(--color-gray-100);
+}
+.pdr-div {
+  left: 268px;
+}
+.group-formgroup {
+  width: 377px;
+  border: 0;
+  background-color: transparent;
+       /* position: absolute; */ 
+  top: 160px;
+  left: 28px;
+}
+.logo-div {
+    /* position: absolute; */
+  top: 38px;
+  left: 88px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--font-dancing-script);
+  color: #000;
+  display: inline-block;
+}
+.group-button1,
+.rectangle-div {
+  width: -webkit-fill-available;
+    /* position: absolute; */
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.rectangle-div {
+  top: 234px;
+  border-radius: var(--br-md);
+  background: linear-gradient(
+    97.01deg,
+    #71bbff,
+    #71bbff 10.42%,
+    rgba(92, 98, 250, 0.6)
+  );
+  height: 130px;
+}
+.group-button1 {
+  top: 260px;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 20px;
+}
+.last-check-20min1,
+.table-01-div {
+    /* position: absolute; */
+  left: 11.67%;
+  display: inline-block;
+}
+.last-check-20min1 {
+  top: 60.77%;
+  font-weight: 500;
+}
+.table-01-div {
+  top: 42.31%;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.rectangle-div1 {
+    /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background: linear-gradient(
+    97.01deg,
+    rgba(113, 187, 255, 0),
+    rgba(113, 187, 255, 0) 10.42%,
+    rgba(92, 98, 250, 0)
+  );
+  display: none;
+}
+.restaurant-1-icon {
+    /* position: absolute; */
+  height: 18.46%;
+  width: 13.33%;
+  top: 20%;
+  right: 75%;
+  bottom: 61.54%;
+  left: 11.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-1-div,
+.component-3-div,
+.component-5-div,
+.component-7-div {
+    /* position: absolute; */
+  top: 386px;
+  left: 10px;
+  width: 180px;
+  height: 130px;
+  cursor: pointer;
+}
+.component-3-div,
+.component-5-div,
+.component-7-div {
+  top: 538px;
+}
+.component-5-div,
+.component-7-div {
+  top: 690px;
+}
+.component-7-div {
+  top: 842px;
+}
+.component-2-div,
+.component-4-div,
+.component-6-div,
+.component-8-div {
+    /* position: absolute; */
+  top: 386px;
+  left: 225px;
+  width: 180px;
+  height: 130px;
+  cursor: pointer;
+}
+.component-4-div,
+.component-6-div,
+.component-8-div {
+  top: 538px;
+}
+.component-6-div,
+.component-8-div {
+  top: 690px;
+}
+.component-8-div {
+  top: 842px;
+}
+.table-details {
+  position: relative;
+  background-color: rgb(84, 89, 95);
+  width: 100%;
+  height: 926px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-indigo);
+  font-family: var(--font-poppins);
+}
+
+.group-formgroup-search{
+  width: -webkit-fill-available;
+    /* position: absolute; */
+  margin-left: 10px;
+  margin-right: 10px;
+  top: 120px;
+  padding-bottom: 87px;
+  padding-top: 22px;
+}
+
+.body {
+  background-color: #54595f;
+}
