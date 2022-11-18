@@ -24,12 +24,39 @@ const Item = styled(Paper)(({ theme }) => ({
 //component template
 
 const tableNum = [
-    {Table:"1"},
-    {Table:"2"},
-    {Table:"3"},
-    {Table:"4"},
-    {Table:"5"},
+  {Table:"1"},
+  {Table:"2"},
+  {Table:"3"},
+  {Table:"4"},
+  {Table:"5"},
+  {Table:"6"},
+  {Table:"7"},
+  {Table:"8"},
+  {Table:"9"},
+  {Table:"10"},
+  {Table:"11"},
+  {Table:"12"},
+  {Table:"13"},
+  {Table:"14"},
+  {Table:"15"},
+  {Table:"16"},
+  {Table:"17"},
+  {Table:"18"},
+  {Table:"19"},
+  {Table:"20"},
+  {Table:"21"},
+  {Table:"22"},
+  {Table:"23"},
+  {Table:"24"},
+  {Table:"25"},
+  {Table:"26"},
+  {Table:"27"},
+  {Table:"28"},
   ];
+
+  //array from 1 to 28 
+  
+
 
 const TableOverview = () => {
 
@@ -44,7 +71,7 @@ const TableOverview = () => {
     }, [navigate]);
 
     return (
-        <Grid container spacing={8}>
+        <Grid style={{paddingLeft: "10px", paddingRight: "10px"}} container spacing={8}>
           {tableNum.map(row => (
             <Grid item xs={6}>
               <Item>       <div onClick={onComponent1ContainerClick}>

@@ -8,7 +8,7 @@ const Table = () => {
   const navigate = useNavigate();
 
   const onVectorIconClick = useCallback(() => {
-    navigate("/");
+    navigate("/overview");
   }, [navigate]);
 
   return (
