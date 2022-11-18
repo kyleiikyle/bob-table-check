@@ -8,7 +8,8 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import TableOverview from "../components/tables/table.js"
-import SimpleContainer from "../components/simpleComponents/container.js"
+import Error from "./500";
+
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -18,6 +19,7 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
   color: theme.palette.text.secondary,
 }));
+
 
 
 const TableDetails = () => {
@@ -55,6 +57,17 @@ const TableDetails = () => {
     navigate("/table");
   }, [navigate]);
 
+  function device(){
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+      // true for mobile device
+      console.log("mobile device");
+    }else{
+      // false for not mobile device
+      window.location.href = "../error";
+    }
+  }
+ 
+
   return (
     <div className="table-details">
       <img className="group-icon" alt="" src="../logo.png" />
@@ -63,12 +76,12 @@ const TableDetails = () => {
         <Form.Label></Form.Label>
         <Form.Control type="text" style={{textAlign: "center"}} placeholder="Search Table" />
         
+<button style={{display: "none"}} onClick={device()}></button>
 
-
-        
       </Form.Group>          
 
           <TableOverview></TableOverview>
+
           
 
 

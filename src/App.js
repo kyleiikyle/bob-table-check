@@ -8,6 +8,7 @@ import TableDetails from "./pages/TableDetails";
 import Times from "./pages/Times";
 import Table from "./pages/Table";
 import { useEffect } from "react";
+import Error from "./pages/500";
 
 function App() {
   const action = useNavigationType();
@@ -59,6 +60,8 @@ function App() {
       <Route path="/" element={<TableDetails />} />
 
       <Route path="/times" element={<Times />} />
+
+      <Route path="/error" element={<Error />} />
 
       <Route path="/table" element={<Table />} />
     </Routes>
